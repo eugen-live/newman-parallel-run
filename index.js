@@ -13,8 +13,7 @@ for (let index = 0; index < PARALLEL_RUN_COUNT; index++) {
 		reporters: ['html'],
 		reporter: {html: { export: './logs/html/runs.' + PARALLEL_RUN_COUNT + 
 									'.iterations.' + parseInt(process.argv[3]) + 
-									'.thread.' + index + '.html'}},
-		insecure: true
+									'.thread.' + index + '.html'}}
 	};
 	
 	parallelCollectionRun = function (done) {
