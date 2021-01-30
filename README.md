@@ -32,6 +32,8 @@ Simply run `npm init -y` and install the 3 dependencies: `npm i async newman pat
 
 ## The script !
 
-It's kind of self explanatory, update the path for your postman collection and environment, specify the number of concurrent run you want to launch with the constant `PARALLEL_RUN_COUNT` and execute the script with `npm start` 
+Specify the number of concurrent run, iterations inside each of them, the path for your postman collection and environment execute the script with
+`npm start [NumberOfRuns] [NumberOfIterations] [Collection] [Environment]`
+`npm start 2 2 'postman/postman_collection_open_source.json' 'postman/localhost.postman_environment.json'` 
 
 ![running results](docs/run-result.png)
