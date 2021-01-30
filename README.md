@@ -28,7 +28,7 @@ And save the files in a `postman/` directory.
 
 ## Create the new npm project
 
-Simply run `npm init -y` and install the 3 dependencies: `npm i async newman path`
+Simply run `npm init -y` and install the 3 dependencies: `npm i async newman path newman-reporter-html`
 
 ## The script !
 
